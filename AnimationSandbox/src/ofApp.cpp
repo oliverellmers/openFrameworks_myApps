@@ -3,7 +3,7 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
 
-	ofSetFrameRate(30);
+	//ofSetFrameRate(30);
 	//ofSetVerticalSync(false);
 	ofBackground(ofColor::black);
 
@@ -15,7 +15,21 @@ void ofApp::setup(){
 	myRectangle.posB.x = 590;
 	myRectangle.posB.y = 590;
 	myRectangle.interpolateByPct(0);
+	
+
+	for (int i = 0; i < 10; i++) {
+		myArrayRectangles[i].posA.x = 0;
+		myArrayRectangles[i].posA.y = 10 + i * 20;
+		myArrayRectangles[i].posB.x = 400;
+		myArrayRectangles[i].posB.y = 10 + i * 20;
+		myArrayRectangles[i].shaper = 0.4 + 0.2 * i;
+		myArrayRectangles[i].interpolateByPct(0);
+	}
+	
 	pct = 0;
+	arrPct = 0;
+
+
 	
 }
 
@@ -40,6 +54,15 @@ void ofApp::update(){
 		pct = 0;
 	}
 	myRectangle.interpolateByPct(pct);
+
+
+	arrPct += 0.01f;
+	if (arrPct > 1) {
+		arrPct = 0;
+	}
+	for (int i = 0; i < 10; i++) {
+		myArrayRectangles[i].interpolateByPct(arrPct);
+	}
 }
 
 //--------------------------------------------------------------
@@ -52,6 +75,11 @@ void ofApp::draw(){
 
 	ofDrawCircle(xPos, 100, 10);
 	myRectangle.draw();
+
+	for (int i = 0; i < 10; i++) {
+		if (i == 3) ofSetColor(255, 0, 0);
+		myArrayRectangles[i].draw();
+	}
 }
 
 //--------------------------------------------------------------
@@ -66,7 +94,11 @@ void ofApp::keyReleased(int key){
 
 //--------------------------------------------------------------
 void ofApp::mouseMoved(int x, int y ){
-
+	myRectangle.posA = myRectangle.pos;
+	myRectangle.posB.x = x;
+	myRectangle.posB.y = y;
+	pct = 0;
+	myRectangle.interpolateByPct(0);
 }
 
 //--------------------------------------------------------------
@@ -76,12 +108,13 @@ void ofApp::mouseDragged(int x, int y, int button){
 
 //--------------------------------------------------------------
 void ofApp::mousePressed(int x, int y, int button){
-	
+	/*
 	myRectangle.posA = myRectangle.pos;
 	myRectangle.posB.x = x;
 	myRectangle.posB.y = y;
 	pct = 0;
 	myRectangle.interpolateByPct(0);
+	*/
 }
 
 //--------------------------------------------------------------

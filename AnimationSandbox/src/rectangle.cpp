@@ -1,6 +1,8 @@
 #include "rectangle.h"
 
-rectangle::rectangle() {}
+rectangle::rectangle() {
+	shaper = 0.5;
+}
 
 void rectangle::draw() {
 	ofFill();
@@ -10,7 +12,8 @@ void rectangle::draw() {
 }
 
 void rectangle::interpolateByPct(float myPct) {
-	pct = myPct;
+	//pct = myPct;
+	pct = pow(myPct, shaper);
 
 	pos.x = (1 - pct) * posA.x + (pct)* posB.x;
 	pos.y = (1 - pct) * posA.y + (pct)* posB.y;

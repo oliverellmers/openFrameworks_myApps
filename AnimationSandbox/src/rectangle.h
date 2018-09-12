@@ -15,6 +15,7 @@ public:
 
 	// what percent are we between a and b
 	float pct;
+	float shaper;
 
 };
 

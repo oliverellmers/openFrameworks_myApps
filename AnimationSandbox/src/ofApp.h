@@ -26,7 +26,9 @@ class ofApp : public ofBaseApp{
 		float speed;
 
 		rectangle myRectangle;
+		rectangle myArrayRectangles[10];
 		float pct;
+		float arrPct;
 
 		
 		
