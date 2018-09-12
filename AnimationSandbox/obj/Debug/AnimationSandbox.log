@@ -1,6 +1,4 @@
-﻿  main.cpp
-  ofApp.cpp
-     Creating library bin\AnimationSandbox_debug.lib and object bin\AnimationSandbox_debug.exp
+﻿  ofApp.cpp
   AnimationSandbox.vcxproj -> D:\Development\of_v0.10.0_vs2017_release\apps\openFrameworks_myApps\AnimationSandbox\bin\AnimationSandbox_debug.exe
   
   	                   2	D:\Development\of_v0.10.0_vs2017_release\libs\fmodex\lib\vs\Win32\

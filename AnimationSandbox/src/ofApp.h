@@ -1,6 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
+#include "rectangle.h"
 
 class ofApp : public ofBaseApp{
 
@@ -23,5 +24,10 @@ class ofApp : public ofBaseApp{
 
 		int xPos;
 		float speed;
+
+		rectangle myRectangle;
+		float pct;
+
+		
 		
 };
