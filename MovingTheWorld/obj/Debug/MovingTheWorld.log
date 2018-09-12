@@ -1,0 +1,11 @@
+﻿  ofApp.cpp
+d:\development\of_v0.10.0_vs2017_release\apps\myapps\movingtheworld\src\ofapp.cpp(56): warning C4996: 'ofRotate': Use ofRotateDeg or ofRotateRad
+  d:\development\of_v0.10.0_vs2017_release\libs\openframeworks\graphics\ofgraphics.h(1011): note: see declaration of 'ofRotate'
+  MovingTheWorld.vcxproj -> D:\Development\of_v0.10.0_vs2017_release\apps\myApps\MovingTheWorld\bin\MovingTheWorld_debug.exe
+  
+  	                   2	D:\Development\of_v0.10.0_vs2017_release\libs\fmodex\lib\vs\Win32\
+  	  *EXTRA File 		 5647872	D:\Development\of_v0.10.0_vs2017_release\apps\myApps\MovingTheWorld\bin\FreeImage.dll
+  
+  	                   1	D:\Development\of_v0.10.0_vs2017_release\libs\FreeImage\lib\vs\Win32\
+  	  *EXTRA File 		 1266176	D:\Development\of_v0.10.0_vs2017_release\apps\myApps\MovingTheWorld\bin\fmodex.dll
+  	  *EXTRA File 		 1312768	D:\Development\of_v0.10.0_vs2017_release\apps\myApps\MovingTheWorld\bin\fmodexL.dll

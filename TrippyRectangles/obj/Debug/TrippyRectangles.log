@@ -1,0 +1,11 @@
+﻿  ofApp.cpp
+d:\development\of_v0.10.0_vs2017_release\apps\myapps\trippyrectangles\src\ofapp.cpp(48): warning C4996: 'ofRotate': Use ofRotateDeg or ofRotateRad
+  d:\development\of_v0.10.0_vs2017_release\libs\openframeworks\graphics\ofgraphics.h(1011): note: see declaration of 'ofRotate'
+  TrippyRectangles.vcxproj -> D:\Development\of_v0.10.0_vs2017_release\apps\myApps\TrippyRectangles\bin\TrippyRectangles_debug.exe
+  
+  	                   2	D:\Development\of_v0.10.0_vs2017_release\libs\fmodex\lib\vs\Win32\
+  	  *EXTRA File 		 5647872	D:\Development\of_v0.10.0_vs2017_release\apps\myApps\TrippyRectangles\bin\FreeImage.dll
+  
+  	                   1	D:\Development\of_v0.10.0_vs2017_release\libs\FreeImage\lib\vs\Win32\
+  	  *EXTRA File 		 1266176	D:\Development\of_v0.10.0_vs2017_release\apps\myApps\TrippyRectangles\bin\fmodex.dll
+  	  *EXTRA File 		 1312768	D:\Development\of_v0.10.0_vs2017_release\apps\myApps\TrippyRectangles\bin\fmodexL.dll

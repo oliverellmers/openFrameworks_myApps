@@ -1,0 +1,13 @@
+﻿  ofApp.cpp
+d:\development\of_v0.10.0_vs2017_release\apps\myapps\oops\src\ofapp.cpp(28): warning C4018: '<': signed/unsigned mismatch
+d:\development\of_v0.10.0_vs2017_release\apps\myapps\oops\src\ofapp.cpp(48): warning C4018: '<': signed/unsigned mismatch
+d:\development\of_v0.10.0_vs2017_release\apps\myapps\oops\src\ofapp.cpp(85): warning C4018: '<': signed/unsigned mismatch
+     Creating library bin\OOPS_debug.lib and object bin\OOPS_debug.exp
+  OOPS.vcxproj -> D:\Development\of_v0.10.0_vs2017_release\apps\myApps\OOPS\bin\OOPS_debug.exe
+  
+  	                   2	D:\Development\of_v0.10.0_vs2017_release\libs\fmodex\lib\vs\Win32\
+  	  *EXTRA File 		 5647872	D:\Development\of_v0.10.0_vs2017_release\apps\myApps\OOPS\bin\FreeImage.dll
+  
+  	                   1	D:\Development\of_v0.10.0_vs2017_release\libs\FreeImage\lib\vs\Win32\
+  	  *EXTRA File 		 1266176	D:\Development\of_v0.10.0_vs2017_release\apps\myApps\OOPS\bin\fmodex.dll
+  	  *EXTRA File 		 1312768	D:\Development\of_v0.10.0_vs2017_release\apps\myApps\OOPS\bin\fmodexL.dll
