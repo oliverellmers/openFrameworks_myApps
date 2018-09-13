@@ -28,13 +28,6 @@ void ofApp::setup(){
 	
 	pct = 0;
 	arrPct = 0;
-
-	
-
-	//currentValue = 0;
-	//targetValue = 200;
-
-
 	
 }
 
@@ -59,7 +52,6 @@ void ofApp::update(){
 		pct = 0;
 	}
 	myRectangle.interpolateByPct(pct);
-	//myRectangle.interpolateByPct(0);
 
 
 	arrPct += 0.01f;
@@ -113,13 +105,7 @@ void ofApp::keyReleased(int key){
 void ofApp::mouseMoved(int x, int y ){
 	myRectangle.posA = myRectangle.pos;
 	myRectangle.posB.x = x;
-	myRectangle.posB.y = y;
-	//pct = 0;
-	//myRectangle.interpolateByPct(0);
-
-
-
-	
+	myRectangle.posB.y = y;	
 }
 
 //--------------------------------------------------------------
@@ -133,8 +119,6 @@ void ofApp::mousePressed(int x, int y, int button){
 	myRectangle.posA = myRectangle.pos;
 	myRectangle.posB.x = x;
 	myRectangle.posB.y = y;
-	pct = 0;
-	myRectangle.interpolateByPct(0);
 	*/
 }
 
