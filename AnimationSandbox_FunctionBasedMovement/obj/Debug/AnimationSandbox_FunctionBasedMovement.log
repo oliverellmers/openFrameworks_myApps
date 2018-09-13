@@ -1,0 +1,13 @@
+﻿  ofApp.cpp
+d:\development\of_v0.10.0_vs2017_release\apps\openframeworks_myapps\animationsandbox_functionbasedmovement\src\ofapp.cpp(16): warning C4996: 'ofRect': Use ofDrawRectangle instead
+  d:\development\of_v0.10.0_vs2017_release\libs\openframeworks\graphics\ofgraphics.h(512): note: see declaration of 'ofRect'
+d:\development\of_v0.10.0_vs2017_release\apps\openframeworks_myapps\animationsandbox_functionbasedmovement\src\ofapp.cpp(27): warning C4996: 'ofRect': Use ofDrawRectangle instead
+  d:\development\of_v0.10.0_vs2017_release\libs\openframeworks\graphics\ofgraphics.h(512): note: see declaration of 'ofRect'
+  AnimationSandbox_FunctionBasedMovement.vcxproj -> D:\Development\of_v0.10.0_vs2017_release\apps\openFrameworks_myApps\AnimationSandbox_FunctionBasedMovement\bin\AnimationSandbox_FunctionBasedMovement_debug.exe
+  
+  	                   2	D:\Development\of_v0.10.0_vs2017_release\libs\fmodex\lib\vs\Win32\
+  	  *EXTRA File 		 5647872	D:\Development\of_v0.10.0_vs2017_release\apps\openFrameworks_myApps\AnimationSandbox_FunctionBasedMovement\bin\FreeImage.dll
+  
+  	                   1	D:\Development\of_v0.10.0_vs2017_release\libs\FreeImage\lib\vs\Win32\
+  	  *EXTRA File 		 1266176	D:\Development\of_v0.10.0_vs2017_release\apps\openFrameworks_myApps\AnimationSandbox_FunctionBasedMovement\bin\fmodex.dll
+  	  *EXTRA File 		 1312768	D:\Development\of_v0.10.0_vs2017_release\apps\openFrameworks_myApps\AnimationSandbox_FunctionBasedMovement\bin\fmodexL.dll
