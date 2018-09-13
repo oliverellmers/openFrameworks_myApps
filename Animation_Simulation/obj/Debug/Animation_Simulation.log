@@ -1,0 +1,13 @@
+﻿  ofApp.cpp
+d:\development\of_v0.10.0_vs2017_release\apps\openframeworks_myapps\animation_simulation\src\ofapp.cpp(25): warning C4018: '<': signed/unsigned mismatch
+d:\development\of_v0.10.0_vs2017_release\apps\openframeworks_myapps\animation_simulation\src\ofapp.cpp(39): warning C4018: '<': signed/unsigned mismatch
+d:\development\of_v0.10.0_vs2017_release\apps\openframeworks_myapps\animation_simulation\src\ofapp.cpp(68): warning C4018: '<': signed/unsigned mismatch
+     Creating library bin\Animation_Simulation_debug.lib and object bin\Animation_Simulation_debug.exp
+  Animation_Simulation.vcxproj -> D:\Development\of_v0.10.0_vs2017_release\apps\openFrameworks_myApps\Animation_Simulation\bin\Animation_Simulation_debug.exe
+  
+  	                   2	D:\Development\of_v0.10.0_vs2017_release\libs\fmodex\lib\vs\Win32\
+  	  *EXTRA File 		 5647872	D:\Development\of_v0.10.0_vs2017_release\apps\openFrameworks_myApps\Animation_Simulation\bin\FreeImage.dll
+  
+  	                   1	D:\Development\of_v0.10.0_vs2017_release\libs\FreeImage\lib\vs\Win32\
+  	  *EXTRA File 		 1266176	D:\Development\of_v0.10.0_vs2017_release\apps\openFrameworks_myApps\Animation_Simulation\bin\fmodex.dll
+  	  *EXTRA File 		 1312768	D:\Development\of_v0.10.0_vs2017_release\apps\openFrameworks_myApps\Animation_Simulation\bin\fmodexL.dll
