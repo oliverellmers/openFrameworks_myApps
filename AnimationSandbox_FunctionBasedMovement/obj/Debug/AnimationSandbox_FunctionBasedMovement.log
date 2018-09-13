@@ -1,7 +1,7 @@
 ﻿  ofApp.cpp
-d:\development\of_v0.10.0_vs2017_release\apps\openframeworks_myapps\animationsandbox_functionbasedmovement\src\ofapp.cpp(16): warning C4996: 'ofRect': Use ofDrawRectangle instead
+d:\development\of_v0.10.0_vs2017_release\apps\openframeworks_myapps\animationsandbox_functionbasedmovement\src\ofapp.cpp(33): warning C4996: 'ofRect': Use ofDrawRectangle instead
   d:\development\of_v0.10.0_vs2017_release\libs\openframeworks\graphics\ofgraphics.h(512): note: see declaration of 'ofRect'
-d:\development\of_v0.10.0_vs2017_release\apps\openframeworks_myapps\animationsandbox_functionbasedmovement\src\ofapp.cpp(27): warning C4996: 'ofRect': Use ofDrawRectangle instead
+d:\development\of_v0.10.0_vs2017_release\apps\openframeworks_myapps\animationsandbox_functionbasedmovement\src\ofapp.cpp(37): warning C4996: 'ofRect': Use ofDrawRectangle instead
   d:\development\of_v0.10.0_vs2017_release\libs\openframeworks\graphics\ofgraphics.h(512): note: see declaration of 'ofRect'
   AnimationSandbox_FunctionBasedMovement.vcxproj -> D:\Development\of_v0.10.0_vs2017_release\apps\openFrameworks_myApps\AnimationSandbox_FunctionBasedMovement\bin\AnimationSandbox_FunctionBasedMovement_debug.exe
   

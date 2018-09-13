@@ -21,4 +21,8 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 		
+		float xOrig;
+		float yOrig;
+		float radius;
+		float angle;
 };
