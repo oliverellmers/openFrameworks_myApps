@@ -29,6 +29,11 @@ void ofApp::setup(){
 	pct = 0;
 	arrPct = 0;
 
+	
+
+	//currentValue = 0;
+	//targetValue = 200;
+
 
 	
 }
@@ -54,6 +59,7 @@ void ofApp::update(){
 		pct = 0;
 	}
 	myRectangle.interpolateByPct(pct);
+	//myRectangle.interpolateByPct(0);
 
 
 	arrPct += 0.01f;
@@ -63,6 +69,15 @@ void ofApp::update(){
 	for (int i = 0; i < 10; i++) {
 		myArrayRectangles[i].interpolateByPct(arrPct);
 	}
+
+	//Zeno
+	/*
+	currentValue = currentValue + (targetValue - currentValue) * 0.1;
+	cout << "currentValue: " << currentValue << endl;
+	*/
+	zenoRectangle.zenoToPoint(ofGetMouseX(), ofGetMouseY());
+
+	
 }
 
 //--------------------------------------------------------------
@@ -80,6 +95,8 @@ void ofApp::draw(){
 		if (i == 3) ofSetColor(255, 0, 0);
 		myArrayRectangles[i].draw();
 	}
+
+	zenoRectangle.draw();
 }
 
 //--------------------------------------------------------------
@@ -97,8 +114,12 @@ void ofApp::mouseMoved(int x, int y ){
 	myRectangle.posA = myRectangle.pos;
 	myRectangle.posB.x = x;
 	myRectangle.posB.y = y;
-	pct = 0;
-	myRectangle.interpolateByPct(0);
+	//pct = 0;
+	//myRectangle.interpolateByPct(0);
+
+
+
+	
 }
 
 //--------------------------------------------------------------

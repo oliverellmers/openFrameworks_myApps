@@ -30,6 +30,10 @@ class ofApp : public ofBaseApp{
 		float pct;
 		float arrPct;
 
+		float targetValue;
+		float currentValue;
+		rectangle zenoRectangle;
+
 		
 		
 };

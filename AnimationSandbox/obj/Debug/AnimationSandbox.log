@@ -1,5 +1,5 @@
-﻿  main.cpp
-  ofApp.cpp
+﻿  ofApp.cpp
+  rectangle.cpp
   AnimationSandbox.vcxproj -> D:\Development\of_v0.10.0_vs2017_release\apps\openFrameworks_myApps\AnimationSandbox\bin\AnimationSandbox_debug.exe
   
   	                   2	D:\Development\of_v0.10.0_vs2017_release\libs\fmodex\lib\vs\Win32\
