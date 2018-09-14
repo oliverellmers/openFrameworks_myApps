@@ -24,6 +24,9 @@ class ofApp : public ofBaseApp{
 
 		vector <Particle> particles;
 
+		int nPtsW;
+		int nPtsH;
+
 
 		
 };

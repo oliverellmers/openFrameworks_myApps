@@ -22,6 +22,9 @@ public:
 	void addClockwiseForce(float px, float py, float radius, float strength);
 	void addCounterClockwiseForce(float px, float py, float radius, float strength);
 
+	void addRepulsionForce(Particle &p, float radius, float scale);
+	void addAttractionForce(Particle &p, float radius, float scale);
+
 	void update();
 	void draw();
 

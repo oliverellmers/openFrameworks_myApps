@@ -1,7 +1,7 @@
-﻿  ofApp.cpp
-d:\development\of_v0.10.0_vs2017_release\apps\openframeworks_myapps\animation_simulation\src\ofapp.cpp(25): warning C4018: '<': signed/unsigned mismatch
-d:\development\of_v0.10.0_vs2017_release\apps\openframeworks_myapps\animation_simulation\src\ofapp.cpp(46): warning C4018: '<': signed/unsigned mismatch
-d:\development\of_v0.10.0_vs2017_release\apps\openframeworks_myapps\animation_simulation\src\ofapp.cpp(75): warning C4018: '<': signed/unsigned mismatch
+﻿  main.cpp
+  ofApp.cpp
+d:\development\of_v0.10.0_vs2017_release\apps\openframeworks_myapps\animation_simulation\src\ofapp.cpp(83): warning C4018: '<': signed/unsigned mismatch
+d:\development\of_v0.10.0_vs2017_release\apps\openframeworks_myapps\animation_simulation\src\ofapp.cpp(112): warning C4018: '<': signed/unsigned mismatch
   Animation_Simulation.vcxproj -> D:\Development\of_v0.10.0_vs2017_release\apps\openFrameworks_myApps\Animation_Simulation\bin\Animation_Simulation_debug.exe
   
   	                   2	D:\Development\of_v0.10.0_vs2017_release\libs\fmodex\lib\vs\Win32\

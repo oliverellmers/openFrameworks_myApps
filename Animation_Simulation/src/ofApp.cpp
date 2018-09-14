@@ -6,6 +6,7 @@ void ofApp::setup(){
 	ofSetFrameRate(60);
 	ofBackground(0,0,0);
 
+	/*
 	for (int i = 0; i < 1000; i++) {
 
 		Particle myParticle;
@@ -16,12 +17,31 @@ void ofApp::setup(){
 
 		particles.push_back(myParticle);
 	}
+	*/
+
+	nPtsW = 20;
+	nPtsH = 20;
+
+	for (int i = 0; i < nPtsW; i++) {
+		for (int j = 0; j < nPtsH; j++) {
+			
+			float x = ofMap(i, 0, nPtsW, 0, ofGetWidth());
+			float y = ofMap(j, 0, nPtsH, 0, ofGetHeight());
+
+			Particle myParticle;
+			myParticle.setInitialCondition(x, y, 0, 0);
+			myParticle.dampening = ofRandom(0.01, 0.05);
+
+			particles.push_back(myParticle);
+		}
+	}
 	
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
 
+	/*
 	for (int i = 0; i < particles.size(); i++) {
 		particles[i].resetForce();
 		
@@ -35,14 +55,31 @@ void ofApp::update(){
 		particles[i].addDampeningForce();
 		particles[i].update();
 	}
+	*/
+
+	int count = 0;
+
+	for (int i = 0; i < nPtsW; i++) {
+		for (int j = 0; j < nPtsH; j++) {
+
+			float x = ofMap(i, 0, nPtsW, 0, ofGetWidth());
+			float y = ofMap(j, 0, nPtsH, 0, ofGetHeight());
+
+			particles[count].resetForce();
+			particles[count].addAttractionForce(x, y, 1000, 0.1);
+			particles[count].addRepulsionForce(ofGetMouseX(), ofGetMouseY(), 500, 0.2);
+			particles[count].addDampeningForce();
+			particles[count].update();
+
+			count++;
+		}
+	}
 	
 	
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-	ofSetColor(255);
-
 	for (int i = 0; i < particles.size(); i++) {
 		particles[i].draw();
 	}
