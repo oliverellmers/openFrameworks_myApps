@@ -24,7 +24,14 @@ void ofApp::update(){
 
 	for (int i = 0; i < particles.size(); i++) {
 		particles[i].resetForce();
+		
 		//particles[i].addForce(0,0.04); //gravity
+		particles[i].addAttractionForce(ofGetMouseX(), ofGetMouseY(), 1000, 0.1);
+		//particles[i].addRepulsionForce(ofGetMouseX(), ofGetMouseY(), 60, 1);
+		particles[i].addClockwiseForce(ofGetMouseX(), ofGetMouseY(), 1000, 0.1);
+		//particles[i].addCounterClockwiseForce(ofGetMouseX(), ofGetMouseY(), 200, 1);
+
+
 		particles[i].addDampeningForce();
 		particles[i].update();
 	}

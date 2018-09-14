@@ -17,6 +17,11 @@ public:
 	void addForce(float x, float y);
 	void addDampeningForce();
 
+	void addRepulsionForce(float px, float py, float radius, float strength);
+	void addAttractionForce(float px, float py, float radius, float strength);
+	void addClockwiseForce(float px, float py, float radius, float strength);
+	void addCounterClockwiseForce(float px, float py, float radius, float strength);
+
 	void update();
 	void draw();
 
