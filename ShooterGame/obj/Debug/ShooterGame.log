@@ -1,0 +1,13 @@
+﻿  Player.cpp
+  main.cpp
+  ofApp.cpp
+d:\development\of_v0.10.0_vs2017_release\apps\openframeworks_myapps\shootergame\src\ofapp.cpp(7): warning C4996: 'ofImage_<unsigned char>::loadImage': Use load instead
+  d:\development\of_v0.10.0_vs2017_release\libs\openframeworks\graphics\ofimage.h(227): note: see declaration of 'ofImage_<unsigned char>::loadImage'
+  ShooterGame.vcxproj -> D:\Development\of_v0.10.0_vs2017_release\apps\openFrameworks_myApps\ShooterGame\bin\ShooterGame_debug.exe
+  
+  	                   2	D:\Development\of_v0.10.0_vs2017_release\libs\fmodex\lib\vs\Win32\
+  	  *EXTRA File 		 5647872	D:\Development\of_v0.10.0_vs2017_release\apps\openFrameworks_myApps\ShooterGame\bin\FreeImage.dll
+  
+  	                   1	D:\Development\of_v0.10.0_vs2017_release\libs\FreeImage\lib\vs\Win32\
+  	  *EXTRA File 		 1266176	D:\Development\of_v0.10.0_vs2017_release\apps\openFrameworks_myApps\ShooterGame\bin\fmodex.dll
+  	  *EXTRA File 		 1312768	D:\Development\of_v0.10.0_vs2017_release\apps\openFrameworks_myApps\ShooterGame\bin\fmodexL.dll
